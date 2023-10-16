@@ -1,0 +1,49 @@
+.friendMessage {
+    border: 3px solid black;
+}
+
+.friendImageAndText {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Cantarell', sans-serif;
+}
+
+.friendImageAndText img {
+
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.friendText {
+    /*border: 3px solid red;*/
+    border-radius: 10px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    fill: #F5F7FB;
+    /*border: 1px solid blue;*/
+    filter: drop-shadow(0px 1px 2px rgba(29, 33, 38, 0.10)) drop-shadow(0px 5px 20px rgba(29, 33, 38, 0.03));
+}
+
+.friendText:after {
+    background-color: #61dafb;
+    color: white;
+}
+
+.friendName {
+    padding-left: 5px;
+    /*border: 3px solid orange;*/
+}
+
+.friendMessageText {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.friendTime {
+    /*border: 3px solid brown;*/
+}
